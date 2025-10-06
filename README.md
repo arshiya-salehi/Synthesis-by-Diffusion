@@ -28,3 +28,42 @@ This project demonstrates a text-to-image diffusion model implementation, focuse
     - `PIL`
 
    You can install dependencies using pip:
+
+   
+4. (Optional) Set up Jupyter if not already installed:
+ ```
+ pip install notebook
+ ```
+
+## Usage
+
+- Open the notebook `6_diffusion_textprompt.ipynb` in Jupyter.
+- Follow the instructions in the notebook to input custom text prompts and generate images.
+- Example prompt: "Create an image of the UCI Anteater mascot."
+- Results will be displayed in the output cells, and additional analysis or metrics can be found in `results.pdf`[attached_file:c335d613-f26c-46fc-96a0-64b774828a72].
+
+## Example Output
+
+The project features the UCI Anteater as a sample subject.
+
+![UCI Anteater mascot][attached_image:1]
+
+## Results
+
+- Analytical results, evaluation metrics, and comparisons are documented in `results.pdf`[attached_file:c335d613-f26c-46fc-96a0-64b774828a72].
+
+## Credits
+
+- Anteater mascot image: University of California, Irvine.
+- Technology stack: PyTorch, HuggingFace Diffusers.
+
+## License
+
+Specify your license here (e.g., MIT, GPL-3.0).
+
+## Contact
+
+For questions or contributions, please create an issue or pull request.
+
+
+
